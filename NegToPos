@@ -1,0 +1,23 @@
+package week1.day2;
+
+public class ConversionPosNeg {
+	
+	
+	
+
+
+	public static void main(String[] args) {
+		int i=-5;
+		if(i<0) {
+			System.out.println("negative"+i);
+			i=i*(-1);
+			System.out.println("negative number convered to positive number"+i);
+		}
+		else {
+			System.out.println("postive");
+		}
+		// TODO Auto-generated method stub
+
+	}
+
+}
