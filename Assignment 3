@@ -1,0 +1,48 @@
+package week1.day2;
+
+public class Calculator {
+	
+	
+	public int add(int num1,int num2,int num3){
+		return num1+num2+num3;
+}
+	public int sub(int num1,int num2) {
+		return num1-num2;
+		
+	}
+	public double mul(double num1,double num2) {
+		return num1*num2;
+	}
+	public float div(float num1,float num2) {
+		return num1/num2;
+	}
+	public static void main(String[] args) {
+	
+		// TODO Auto-generated method stub
+		Calculator c= new Calculator();
+	
+		System.out.println("sum is"+c.add(10,20,30));
+		System.out.println("sub is"+c.sub(40,30));
+		System.out.println("mul of 2 numbers is"+c.mul(234.343, 345.34));
+		System.out.println("div of 2 numbers is"+c.div(234.32f, 345.45f));
+		}
+}
+
+
+
+part 2:
+package week1.day2;
+
+public class MyCalculator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Calculator c= new Calculator();
+		
+		System.out.println("sum is"+c.add(10,20,30));
+		System.out.println("sub is"+c.sub(40,30));
+		System.out.println("mul of 2 numbers is"+c.mul(234.343, 345.34));
+		System.out.println("div of 2 numbers is"+c.div(234.32f, 345.45f));
+	}
+
+}
