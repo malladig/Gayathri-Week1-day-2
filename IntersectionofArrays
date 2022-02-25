@@ -1,0 +1,22 @@
+package week1.day2;
+
+public class IntersectionofArrays {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a[]= {56,78,45,32,10,9,8};
+		int b[]= {10,67,79,78,32,8,2};
+		System.out.println("ntersection of two arays is");
+		for(int i=0;i<a.length;i++) {
+			for(int j=0;j<b.length;j++) {
+				if(a[i]==b[j]) {
+					System.out.println(b[j]);
+				}
+					
+			}
+		}
+			
+
+	}
+
+}
